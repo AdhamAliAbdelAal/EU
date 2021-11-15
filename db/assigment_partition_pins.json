@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rega[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rega[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rega[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rega[0]",
+					"strict" : false
+				},
+				{
+					"name" : "regb[3]",
+					"strict" : false
+				},
+				{
+					"name" : "regb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "regb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "regb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "regc[3]",
+					"strict" : false
+				},
+				{
+					"name" : "regc[2]",
+					"strict" : false
+				},
+				{
+					"name" : "regc[1]",
+					"strict" : false
+				},
+				{
+					"name" : "regc[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CMI[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,374 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CMP/CMP3/Microprocessors/Quartuz/yarab/simulation/qsim
+v\4bitAdder 
+!s110 1635622505
+!i10b 1
+!s100 67T9VH?jHIJV?5m^9X=@V2
+I[j_7bKj<UMKglS77cbeNF1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1635622504
+Z2 8assigment.vo
+Z3 Fassigment.vo
+Z4 L0 31
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1635622505.000000
+Z6 !s107 assigment.vo|
+Z7 !s90 -work|work|assigment.vo|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@1344bit@adder@040
+valu
+Z10 !s110 1635624622
+!i10b 1
+!s100 CL:9CZTE]Sj8>kSlh=9kV0
+IPW6c<ni@SBfBcWDhNbPme2
+R1
+R0
+w1635624621
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1635624622.000000
+R6
+R7
+!i113 1
+R8
+R9
+valu_vlg_vec_tst
+R10
+!i10b 1
+!s100 kDbI`;;E>l5B7J7Kd8JSn0
+IPbf:JQ;9MRQ?S]W56zbDF3
+R1
+R0
+w1635624620
+8Waveform108.vwf.vt
+FWaveform108.vwf.vt
+Z12 L0 29
+R5
+r1
+!s85 0
+31
+R11
+!s107 Waveform108.vwf.vt|
+!s90 -work|work|Waveform108.vwf.vt|
+!i113 1
+R8
+R9
+vassigment
+Z13 !s110 1635631528
+!i10b 1
+!s100 kF:=f8AYG@]GLkmXh0o^:3
+ImlA``U=hl;z?b0W81d`bT3
+R1
+R0
+w1635631527
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z14 !s108 1635631528.000000
+R6
+R7
+!i113 1
+R8
+R9
+vassigment_vlg_vec_tst
+R13
+!i10b 1
+!s100 AikgPN2U:fK;S@F99Y2=M3
+IiKl0in^jz^BbLc8G@VO511
+R1
+R0
+w1635631526
+8Waveform112.vwf.vt
+FWaveform112.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R14
+!s107 Waveform112.vwf.vt|
+!s90 -work|work|Waveform112.vwf.vt|
+!i113 1
+R8
+R9
+vEU
+Z15 !s110 1636981663
+!i10b 1
+!s100 9CVNkP0?=^eIDk0`>:58M2
+I07BTESL=DGkcGTI6W^VUU1
+R1
+Z16 dC:/Users/adham ali/Desktop/Assigment01/simulation/qsim
+w1636981661
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z17 !s108 1636981663.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@e@u
+vEU_vlg_vec_tst
+R15
+!i10b 1
+!s100 Q1gm4n?0K>L6IbO@4YmJZ0
+I3T6XnF5bgnDmJAS?0@S3o2
+R1
+R16
+w1636981659
+8Waveform117.vwf.vt
+FWaveform117.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R17
+!s107 Waveform117.vwf.vt|
+!s90 -work|work|Waveform117.vwf.vt|
+!i113 1
+R8
+R9
+n@e@u_vlg_vec_tst
+vFA
+Z18 !s110 1635622078
+!i10b 1
+!s100 B]7EFeZSa8Tl0AXa>]6?e0
+Igk`ad4`Ko`mJ]zY_Q5AP41
+R1
+R0
+w1635622077
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z19 !s108 1635622078.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@f@a
+vFA_vlg_vec_tst
+R18
+!i10b 1
+!s100 HDb<IG@3YPN<;o9`>ABz63
+Ig1f0HFaW``H8AcLecClOS2
+R1
+R0
+w1635622076
+8Waveform104.vwf.vt
+FWaveform104.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R19
+!s107 Waveform104.vwf.vt|
+!s90 -work|work|Waveform104.vwf.vt|
+!i113 1
+R8
+R9
+n@f@a_vlg_vec_tst
+vHA
+Z20 !s110 1635621915
+!i10b 1
+!s100 >:>nj9APa27]J@M?9oHkJ1
+IjleBE2`K_cUh3]jD_8m0o1
+R1
+R0
+w1635621914
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z21 !s108 1635621915.000000
+R6
+R7
+!i113 1
+R8
+R9
+n@h@a
+vHA_vlg_vec_tst
+R20
+!i10b 1
+!s100 @Ee8^EQgfeNSI3cA84dc30
+I2D]JJ_GUM[=M9T8ekoj1Z3
+R1
+R0
+w1635621913
+8Waveform103.vwf.vt
+FWaveform103.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R21
+!s107 Waveform103.vwf.vt|
+!s90 -work|work|Waveform103.vwf.vt|
+!i113 1
+R8
+R9
+n@h@a_vlg_vec_tst
+vregister
+Z22 !s110 1635619308
+!i10b 1
+!s100 ;>mRU`bKWfCUKHHR<j5EO3
+Il7K1RN]NCCGz=IfBd0k4A0
+R1
+R0
+w1635619307
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z23 !s108 1635619308.000000
+R6
+R7
+!i113 1
+R8
+R9
+vregister_vlg_vec_tst
+R22
+!i10b 1
+!s100 JBThC[SW=@e7OS`;C`hh61
+Ic3AC8o6nKK@Y9:S:k@BXh2
+R1
+R0
+w1635619306
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R23
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R8
+R9
+vtest
+Z24 !s110 1635616879
+!i10b 1
+!s100 T:TmQTd;Znb0^[EbH9kfX0
+ILX8OgmiC_XO:d5j3ZSTZ@2
+R1
+R0
+w1635616878
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z25 !s108 1635616879.000000
+R6
+R7
+!i113 1
+R8
+R9
+vtest_vlg_vec_tst
+R24
+!i10b 1
+!s100 NJ]JgnlQb:=aXf?MhiKn93
+IN^46E?fI1MNB7T_K4aM5m1
+R1
+R0
+w1635616877
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R25
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R8
+R9
+vtestaya
+Z26 !s110 1635635001
+!i10b 1
+!s100 24=0GL^05`ml]F`cboL<n3
+IBGU9;98n;YW0Z7RIADDWQ0
+R1
+R0
+w1635635000
+R2
+R3
+R4
+R5
+r1
+!s85 0
+31
+Z27 !s108 1635635001.000000
+R6
+R7
+!i113 1
+R8
+R9
+vtestaya_vlg_vec_tst
+R26
+!i10b 1
+!s100 omz>8e]aSmKLU3dj;fl@;0
+IgJdA6kPA35ONf5>bf`Qb83
+R1
+R0
+w1635634999
+8Waveform114.vwf.vt
+FWaveform114.vwf.vt
+R12
+R5
+r1
+!s85 0
+31
+R27
+!s107 Waveform114.vwf.vt|
+!s90 -work|work|Waveform114.vwf.vt|
+!i113 1
+R8
+R9

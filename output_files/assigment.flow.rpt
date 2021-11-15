@@ -1,0 +1,184 @@
+Flow report for assigment
+Mon Nov 15 15:07:41 2021
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Mon Nov 15 15:07:41 2021       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; assigment                                   ;
+; Top-level Entity Name           ; EU                                          ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; 15 / 32,070 ( < 1 % )                       ;
+; Total registers                 ; 12                                          ;
+; Total pins                      ; 23 / 457 ( 5 % )                            ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
+; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
++---------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/11/2021 20:43:13 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; assigment           ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 5311869394950.163665619312228          ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; EU          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; EU          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; EU          ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
+; TOP_LEVEL_ENTITY                    ; EU                                     ; assigment     ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4852 MB             ; 00:00:20                           ;
+; Fitter               ; 00:00:36     ; 1.0                     ; 6813 MB             ; 00:02:03                           ;
+; Assembler            ; 00:00:06     ; 1.0                     ; 4824 MB             ; 00:00:06                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.0                     ; 5148 MB             ; 00:00:05                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4715 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:09     ; 1.0                     ; 4706 MB             ; 00:00:03                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4717 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4716 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4716 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4706 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4714 MB             ; 00:00:02                           ;
+; Total                ; 00:01:34     ; --                      ; --                  ; 00:03:13                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; Adham-Ali        ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off assigment -c assigment
+quartus_fit --read_settings_files=off --write_settings_files=off assigment -c assigment
+quartus_asm --read_settings_files=off --write_settings_files=off assigment -c assigment
+quartus_sta assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/yarab/Waveform116.vwf" --testbench_file="C:/Users/adham ali/Desktop/yarab/simulation/qsim/Waveform116.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/yarab/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off assigment -c assigment --vector_source="C:/Users/adham ali/Desktop/Assigment01/Waveform117.vwf" --testbench_file="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/Waveform117.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/adham ali/Desktop/Assigment01/simulation/qsim/" assigment -c assigment
+
+
+
